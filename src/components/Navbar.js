@@ -10,7 +10,7 @@ export default function Navbar() {
                 <ul className="navbarLinkList">
                     <Link className="navbarLink">Design</Link>
                     <Link className="navbarLink">Writing</Link>
-                    <Link className="navbarLink">Art</Link>
+                    <Link className="navbarLink">Music</Link>
                     <Link className="navbarLink">Contact</Link>
                 </ul>
             </div>

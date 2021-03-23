@@ -1,8 +1,7 @@
 .home {
     display: flex;
-    justify-content: center;
-    height: 92.6vh;
-    width: 100vw;
+    flex-direction: column;
+    align-items: center;
     font-family: 'Archivo', sans-serif;
 }
 
@@ -10,7 +9,7 @@
     width: 886px;
     height: 597px;
     position: relative;
-    top: 75px;
+    margin-top: 75px;
 }
 
 .homeImage {
@@ -39,7 +38,7 @@
 }
 
 .homeShortBio {
-    margin: 0 0 55px 0;
+    margin: 0 0 50px 0;
     width: 320px;
     font-size: 16px;
     font-weight: 700;
@@ -47,14 +46,45 @@
     line-height: 17.41px;
 }
 
+.ctaLink {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #3220FF;
+    padding: 16px 55px;
+}
+
 .profileLinkList {
     padding: 0;
     display: flex;
     align-items: center;
     gap: 12px;
+    margin: 55px 0 0 0;
 }
 
 .profileLinkList img {
     width: 22px;
     height: 22px;
+}
+
+.brands {
+    margin: 39px 0 50px 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+}
+
+.brandLogoWrap {
+    width: 433px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 21px;
+    margin-bottom: 40px;
+}
+
+.brandLogoWrap img {
+    width: 206px;
+    height: 76px;
 }
