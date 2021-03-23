@@ -10,19 +10,23 @@
     align-items: center;
 }
 
+.navbarWrapper {
+    width: 886px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .navbarName {
     margin: 0;
     font-size: 18px;
     font-weight: 700;
-    position: absolute;
-    left: 162px;
 }
 
 .navbarLinkList {
     margin: 0;
     padding: 0;
     display: flex;
-    width: 886px;
     justify-content: flex-end;
     gap: 70px;
 }
