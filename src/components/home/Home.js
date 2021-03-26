@@ -40,7 +40,7 @@ export default function Home() {
 
                     <a href="https://www.guitarcenter.com/" target="_blank" rel='noreferrer noopener'><img src="/brandsImages/guitar center.png" alt="guitar center"/></a>
 
-                    <a href="https://www.kissyourears.com/" target="_blank" rel='noreferrer noopener'><img src="/brandsImages/kiss your ears.png" alt="kiss your ears"/></a>
+                    <a style={{marginLeft:"0"}} href="https://www.kissyourears.com/" target="_blank" rel='noreferrer noopener'><img src="/brandsImages/kiss your ears.png" alt="kiss your ears"/></a>
 
                     <a href="https://www.azzurrigroup.co.uk/" target="_blank" rel='noreferrer noopener'><img src="/brandsImages/Azzurri Group.png" alt="azzuri group"/></a>
 

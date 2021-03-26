@@ -4,7 +4,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 40px;
+}
+
+.musicVideoWrap iframe {
+    margin-bottom: 40px;
 }
 
 .copyright {

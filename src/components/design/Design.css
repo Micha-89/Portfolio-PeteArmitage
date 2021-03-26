@@ -11,7 +11,10 @@
     flex-direction: row;
     flex-wrap: wrap;
     width: 888px;
-    gap: 22px;
+}
+
+.projectWrap > :nth-child(2n) {
+    margin-left: 22px;
 }
 
 .copyright {
