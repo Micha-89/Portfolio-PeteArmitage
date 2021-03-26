@@ -20,7 +20,7 @@ export default function Home() {
                     </a>
                     <a href="https://www.instagram.com/peopleclub/?hl=en" target="_blank" rel='noreferrer noopener'><img src="/bx_bxl-instagram-alt.svg" alt="instagram"/></a>
                 </ul>
-                <img className="homeImage" src="https://res.cloudinary.com/dc5skapdx/image/upload/v1616506857/Profile_photo_awu3du.jpg" alt="Pete"/>
+                <img className="homeImage" src="/Profile photo 2.png" alt="Pete"/>
             </div>
            
                 <svg style={{marginTop:"37px", marginBottom:"8px"}} width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">

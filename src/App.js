@@ -4,6 +4,7 @@ import Home from './components/home/Home';
 import Design from './components/design/Design';
 import Writing from './components/writing/Writing';
 import Music from './components/music/Music';
+import About from './components/about/About';
 import { Switch, Route } from "react-router-dom";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path='/design' component={Design}/>
         <Route path='/writing' component={Writing}/>
         <Route path='/music' component={Music}/>
+        <Route path='/about' component={About}/>
       </Switch>
     </div>
   );
