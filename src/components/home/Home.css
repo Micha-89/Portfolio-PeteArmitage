@@ -6,10 +6,10 @@
 }
 
 .homeWrapper {
-    width: 886px;
+    width: 888px;
     height: 597px;
     position: relative;
-    margin-top: 75px;
+    margin-top: 143px;
 }
 
 .homeImage {
@@ -38,21 +38,30 @@
 }
 
 .homeShortBio {
+    font-family: 'Roboto', sans-serif;
     margin: 0 0 50px 0;
     width: 320px;
-    font-size: 16px;
-    font-weight: 700;
+    font-size: 18px;
+    font-weight: 400;
     color: white;
-    line-height: 17.41px;
+    line-height: 21.09px;
 }
 
 .ctaLink {
+    font-family: 'Roboto', sans-serif;
     color: white;
     text-decoration: none;
     font-size: 16px;
     font-weight: 400;
-    background-color: #3220FF;
-    padding: 16px 55px;
+    background-color: #1D0CDC;
+    padding: 16px 60px;
+    transition: 0.3s;
+}
+
+.ctaLink:hover {
+    opacity: 0.8;
+    -webkit-box-shadow: inset 5px 5px 3px #1d0ec2; 
+    box-shadow: inset  5px 5px 3px #1d0ec2; 
 }
 
 .profileLinkList {
@@ -68,15 +77,26 @@
     height: 22px;
 }
 
+.profileLinkList a {
+    transition: 0.3s;
+}
+
+.profileLinkList a:hover {
+    opacity: 0.7;
+}
+
 .brands {
+    font-family: 'Roboto', sans-serif;
     margin: 39px 0 50px 0;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 400;
     color: white;
+    width: 204px;
+    text-align: center;
 }
 
 .brandLogoWrap {
-    width: 433px;
+    width: 660px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -87,4 +107,17 @@
 .brandLogoWrap img {
     width: 206px;
     height: 76px;
+    transition: 0.3s;
+}
+
+.brandLogoWrap img:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.copyright {
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
 }

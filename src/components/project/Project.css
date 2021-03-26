@@ -1,0 +1,32 @@
+.projectBox {
+    width: 433px;
+    height: 530px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+.hoverBox {
+    transition: 0.4s;
+    margin-bottom: 40px;
+}
+
+.hoverBox:hover {
+    opacity: 0.7;
+}
+
+.projectBox img {
+    width: 433px;
+    height: 470px;
+}
+
+.projectBox p {
+    font-weight: 500;
+    font-size: 24px;
+    margin: 15px 0 8px 0;
+}
+
+.projectBox em {
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0;
+}

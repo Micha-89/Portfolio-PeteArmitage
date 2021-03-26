@@ -1,0 +1,29 @@
+.articleBox {
+    width: 433px;
+    height: 530px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+.hoverBoxArticle {
+    transition: 0.4s;
+    margin-bottom: 40px;
+}
+
+.hoverBoxArticle:hover {
+    opacity: 0.7;
+}
+
+.articleBox img {
+    width: 433px;
+    height: 470px;
+}
+
+.articleBox em {
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 15px;
+    width: 408px;
+}
