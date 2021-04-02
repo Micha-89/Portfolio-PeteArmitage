@@ -6,13 +6,42 @@ export default function Design() {
     return (
         <div className="projectPage">
             <div className="projectWrap">
-                <Project link="#" image="/projectImages/Screentime 1.png" title="Screentime" subtitle="Designing an IOS tracking app"/>
+                <Project 
+                link="https://petearmitage.medium.com/screentime-app-bc099e27b4c0" 
+                image="/projectImages/Screentime hover.png" 
+                title="SCREENTIME" 
+                descriptionLineOne="Researched and created an iOS design system"
+                descriptionLineTwo="with Carolin Kunstwadl."
+                tags="︎UX research • UI design"
+                />
 
-                <Project link="#" image="/projectImages/Zalando Project image 2.png" title="Zalando" subtitle="Adding a feature to the iOS app"/>
+                <Project 
+                link="https://petearmitage.medium.com/add-a-feature-87b1cc8c021f" 
+                image="/projectImages/zalando image new 2.png" 
+                title="ZALANDO" 
+                descriptionLineOne="Added an ‘ask a friend’ function to"
+                descriptionLineTwo="the e-commerce platform’s iOS app."
+                tags="UX research • iOS redesign • Concept"
+                />
 
-                <Project link="#" image="/projectImages/i need amusic 2.png" title="I need a music studio" subtitle="Designing a music studio aggregate website"/>
+                <Project 
+                link="https://petearmitage.medium.com/i-need-a-music-studio-807207728e97" 
+                image="/projectImages/MUSIC STUDIO FINAO╠ê 1.png" 
+                title="I NEED A MUSIC STUDIO" 
+                descriptionLineOne="Researched and designed a desktop music studio"
+                descriptionLineTwo="aggregate platform."
+                tags="︎UX research • Website Design • Concept"
+                />
 
-                <Project link="#" image="/projectImages/The Chariot.png" title="The Chariot" subtitle="Creating an online editorial plaform"/>
+                <Project 
+                link="https://petearmitage.medium.com/the-chariot-8d50a73c6027" 
+                image="/projectImages/The Chariot.png" 
+                title="THE CHARIOT" 
+                descriptionLineOne="Researched and designed an online"
+                descriptionLineTwo="editorial platform with Julius Kopf."
+                tags="︎UX research • Website Design • Prototyping"
+                />
+
             </div>
 
             <p className="copyright">© Pete Armitage 2021</p>

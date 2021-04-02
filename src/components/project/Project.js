@@ -4,11 +4,13 @@ import './Project.css';
 export default function Project(props) {
     return (
         <div className="hoverBox">
-            <a href={props.link} className="projectBox" target="_blank" rel='noreferrer noopener'>
-                <img src={props.image} alt="project"/>
-                <p>{props.title}</p>
-                <em>{props.subtitle}</em>
-            </a>  
+            <img src={props.image} alt="project"/>
+            <div className="projectInfo">
+                <em>{props.tags}</em>
+                <h4>{props.title}</h4>
+                <p>{props.descriptionLineOne}<br/>{props.descriptionLineTwo}</p>
+                <a href={props.link} target="_blank" rel='noreferrer noopener'>view case study</a>  
+            </div>
         </div>
     )
 }

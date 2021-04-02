@@ -1,32 +1,74 @@
-.projectBox {
-    width: 433px;
-    height: 530px;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    text-decoration: none;
-}
 .hoverBox {
-    transition: 0.4s;
-    margin-bottom: 62px;
-}
-
-.hoverBox:hover {
-    opacity: 0.7;
-}
-
-.projectBox img {
     width: 433px;
     height: 470px;
+    position: relative;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-bottom: 100px;
 }
 
-.projectBox p {
-    font-weight: 500;
-    font-size: 24px;
-    margin: 15px 0 8px 0;
+.hoverBox img {
+    width: 433px;
+    height: 470px;
+    transition: 0.4s;
 }
 
-.projectBox em {
+.hoverBox:hover img {
+    opacity: 0.4;
+}
+
+.projectInfo {
+    width: 433px;
+    height: 470px;
+    position: absolute;
+    bottom: 0px;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.hoverBox:hover .projectInfo {
+    opacity: 1;
+}
+
+.projectInfo em {
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 140px;
+    display: block;
+}
+
+.projectInfo h4 {
+    font-family: 'Archivo', sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.projectInfo p {
     font-weight: 400;
     font-size: 18px;
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.projectInfo a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    border: white solid 2px;
+    padding: 15px 33px;
+    position: absolute;
+    bottom: 45px;
+    left: 50%; 
+    transform: translate(-50%);
+    transition: 0.4s;
+}
+
+.projectInfo a:hover {
+    background-color: white;
+    color: black;
 }
