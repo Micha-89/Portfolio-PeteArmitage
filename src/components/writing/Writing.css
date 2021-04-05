@@ -6,7 +6,6 @@
 
 .articleWrap {
     margin-top: 143px;
-    margin-bottom: 15px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -18,9 +17,3 @@
     margin-left: 22px;
 }
 
-.copyright {
-    color: white;
-    font-weight: 400;
-    font-size: 14px;
-    font-family: 'Roboto', sans-serif;
-}

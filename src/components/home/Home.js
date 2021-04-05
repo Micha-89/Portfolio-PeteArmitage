@@ -10,7 +10,7 @@ export default function Home() {
                 <div className="homeLine"></div>
                 <p className="homeShortBio">I do UX design, content strategy and art direction.<br/>
                 Currently I am available for freelance work.</p>
-                <a className="ctaLink" href="mailto:someone@yoursite.com">get in touch</a>
+                <a className="ctaLink" href="mailto:peterarmitage1357@gmail.com">get in touch</a>
                 <ul className="profileLinkList">
                     <a href="https://www.linkedin.com/in/pete-armitage1/" target="_blank" rel='noreferrer noopener'><img src="/akar-icons_linkedin-fill.svg" alt="linkedin"/></a>
                     <a href="https://twitter.com/petearmitage3" target="_blank" rel='noreferrer noopener'>

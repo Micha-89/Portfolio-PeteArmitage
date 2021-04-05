@@ -44,7 +44,7 @@ export default function About() {
 
                 <h1 className="aboutTitle"><span style={{textDecoration:"line-through"}}>Pete has</span> <em>I have</em> an unquenchable curiosity about human nature.</h1>
 
-                <a className="ctaLinkAbout" href="mailto:someone@yoursite.com">get in touch</a>
+                <a className="ctaLinkAbout" href="mailto:peterarmitage1357@gmail.com">get in touch</a>
 
                 <ul className="profileLinkListAbout">
                     <a href="https://www.linkedin.com/in/pete-armitage1/" target="_blank" rel='noreferrer noopener'><img src="/akar-icons_linkedin-fill.svg" alt="linkedin"/></a>

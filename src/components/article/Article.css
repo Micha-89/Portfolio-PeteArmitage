@@ -1,29 +1,59 @@
-.articleBox {
-    width: 433px;
-    height: 530px;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-}
-.hoverBoxArticle {
-    transition: 0.4s;
-    margin-bottom: 62px;
-}
-
-.hoverBoxArticle:hover {
-    opacity: 0.7;
-}
-
-.articleBox img {
+.boxArticle {
     width: 433px;
     height: 470px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    margin-bottom: 103px;
+    text-align: center;
 }
 
-.articleBox em {
+.boxArticle img {
+    width: 433px;
+    height: 470px;
+    transition: 0.4s;
+}
+
+.boxArticle:hover img {
+    opacity: 0.2;
+}
+
+.articleInfoBox {
+    position: absolute;
+    bottom: 0;
+    width: 433px;
+    height: 470px;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.boxArticle:hover .articleInfoBox {
+    opacity: 1;
+}
+
+.articleInfoBox em {
+    margin-top: 189px;
     font-weight: 400;
     font-size: 18px;
-    margin-top: 15px;
-    width: 408px;
+    display: block;
+}
+
+.articleInfoBox a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    border: white solid 2px;
+    padding: 15px 0;
+    position: absolute;
+    bottom: 55px;
+    left: 50%; 
+    transform: translate(-50%);
+    transition: 0.4s;
+    width: 206px;
+}
+
+.articleInfoBox a:hover {
+    background-color: white;
+    color: black;
 }

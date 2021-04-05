@@ -88,9 +88,8 @@
 }
 
 .ctaLinkAbout:hover {
-    opacity: 0.8;
-    -webkit-box-shadow: inset 5px 5px 3px #1d0ec2; 
-    box-shadow: inset  5px 5px 3px #1d0ec2; 
+    color: #1D0CDC; 
+    background-color: white;
 }
 
 .profileLinkListAbout {
