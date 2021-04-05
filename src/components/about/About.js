@@ -31,7 +31,7 @@ export default function About() {
                             <li>Brand Identity</li>
                             <li>Copywriting</li>
                         </ul>
-                        <a href="/Pete CV April 2021.pdf" download><em>Download CV/Resume</em></a>
+                        <a href="/Pete Armitage CV April 2021.pdf" download><em>Download CV/Resume</em></a>
                     </div>
                 </div>
                 <svg style={{margin:"43px 0 8px 0"}} width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
