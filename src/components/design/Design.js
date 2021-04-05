@@ -27,7 +27,7 @@ export default function Design() {
                 <Project 
                 link="https://petearmitage.medium.com/i-need-a-music-studio-807207728e97" 
                 image="https://res.cloudinary.com/dc5skapdx/image/upload/v1617622017/MUSIC_STUDIO_FINAO_%C3%AA_1_xbpbrj.png" 
-                title="I NEED A MUSIC STUDIO" 
+                title="MUSIC STUDIO" 
                 descriptionLineOne="Researched and designed a desktop music studio"
                 descriptionLineTwo="aggregate platform."
                 tags="︎UX research • Website Design • Concept"
