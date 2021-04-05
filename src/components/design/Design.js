@@ -8,7 +8,7 @@ export default function Design() {
             <div className="projectWrap">
                 <Project 
                 link="https://petearmitage.medium.com/screentime-app-bc099e27b4c0" 
-                image="/projectImages/Screentime hover.png" 
+                image="https://res.cloudinary.com/dc5skapdx/image/upload/v1617622017/Screentime_hover_blznz8.png" 
                 title="SCREENTIME" 
                 descriptionLineOne="Researched and created an iOS design system"
                 descriptionLineTwo="with Carolin Kunstwadl."
@@ -17,7 +17,7 @@ export default function Design() {
 
                 <Project 
                 link="https://petearmitage.medium.com/add-a-feature-87b1cc8c021f" 
-                image="/projectImages/zalando image new 2.png" 
+                image="https://res.cloudinary.com/dc5skapdx/image/upload/v1617622017/zalando_image_new_2_if27bf.png" 
                 title="ZALANDO" 
                 descriptionLineOne="Added an ‘ask a friend’ function to"
                 descriptionLineTwo="the e-commerce platform’s iOS app."
@@ -26,7 +26,7 @@ export default function Design() {
 
                 <Project 
                 link="https://petearmitage.medium.com/i-need-a-music-studio-807207728e97" 
-                image="/projectImages/MUSIC STUDIO FINAO╠ê 1.png" 
+                image="https://res.cloudinary.com/dc5skapdx/image/upload/v1617622017/MUSIC_STUDIO_FINAO_%C3%AA_1_xbpbrj.png" 
                 title="I NEED A MUSIC STUDIO" 
                 descriptionLineOne="Researched and designed a desktop music studio"
                 descriptionLineTwo="aggregate platform."
@@ -35,7 +35,7 @@ export default function Design() {
 
                 <Project 
                 link="https://petearmitage.medium.com/the-chariot-8d50a73c6027" 
-                image="/projectImages/The Chariot.png" 
+                image="https://res.cloudinary.com/dc5skapdx/image/upload/v1617622017/The_Chariot_puzwyz.png" 
                 title="THE CHARIOT" 
                 descriptionLineOne="Researched and designed an online"
                 descriptionLineTwo="editorial platform with Julius Kopf."
