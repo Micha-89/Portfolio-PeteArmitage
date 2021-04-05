@@ -1,6 +1,26 @@
+.loadScreen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 232px;
+}
+
+.loadImage {
+  width: 94px;
+  height: 239px;
+}
+
+progress {
+  margin-top: 21px;
+  width: 87px;
+  height: 10px;
+}
+
 .copyright {
   color: white;
   font-weight: 400;
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
 }
+

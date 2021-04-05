@@ -5,6 +5,9 @@ import './Home.css';
 export default function Home() {
     return (
         <div className="home">
+
+         
+
             <div className="homeWrapper">
                 <h1><span style={{textDecoration:"line-through"}}>Pete is</span> <em>I am</em> a designer and an artist who is deeply in love with storytelling.</h1>
                 <div className="homeLine"></div>
