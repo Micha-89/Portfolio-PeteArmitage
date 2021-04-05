@@ -2,7 +2,7 @@
 
 I wanted to collaborate with a Ironhack UX/UI design student to create a portfolio for both of us. 
 
-We first created Pete's portfolio. [This](https://portfolio-pete.herokuapp.com/) is the beautifull result (for now). 
+We first created Pete's portfolio. [This](https://portfolio-pete-armitage.vercel.app/design) is the beautifull result. 
 
 The website was designed by Pete using Figma. I built it, based on the figma files, using React ⚛️.
 
