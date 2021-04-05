@@ -40,7 +40,7 @@ function App() {
     { loading ? 
     
     <div className="loadScreen">
-      <img className="loadImage" src="/My LOGO 2.jpg" alt="loader"/>
+      <img className="loadImage" src="https://res.cloudinary.com/dc5skapdx/image/upload/v1617624435/My_LOGO_2_gk0vir.png" alt="loader"/>
       <progress max="100" value={value}></progress>
     </div>
 

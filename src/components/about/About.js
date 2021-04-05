@@ -6,7 +6,7 @@ export default function About() {
         <div>
             <div className="aboutWrapper">
                 <div className="aboutInfoWrapper">
-                    <img src="/IMG-8089 2.png" alt="profile photo"/>
+                    <img src="https://res.cloudinary.com/dc5skapdx/image/upload/v1617624745/IMG-8089_2_tiexdl.png" alt="profile photo"/>
                     <div className="aboutTextBox">
                         <h6 className="aboutTextTitle">About me</h6>
                         <p>I’m a Berlin based designer, artist and writer with 6+ years experience in music and marketing.  I’ve worked with a variety of brands, ranging from multinational restaurant groups to tiny record labels.</p>

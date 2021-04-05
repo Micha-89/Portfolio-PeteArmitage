@@ -23,7 +23,7 @@ export default function Home() {
                     </a>
                     <a href="https://www.instagram.com/peopleclub/?hl=en" target="_blank" rel='noreferrer noopener'><img src="/bx_bxl-instagram-alt.svg" alt="instagram"/></a>
                 </ul>
-                <img className="homeImage" src="/Profile photo 2.png" alt="Pete"/>
+                <img className="homeImage" src="https://res.cloudinary.com/dc5skapdx/image/upload/v1617624676/Profile_photo_2_sozqs9.png" alt="Pete"/>
             </div>
            
                 <svg style={{marginTop:"37px", marginBottom:"8px"}} width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -37,17 +37,17 @@ export default function Home() {
                 <p className="brands">Some brands I have worked with</p>
 
                 <div className="brandLogoWrap">
-                    <a href="https://iemusic.co.uk/" target="_blank" rel='noreferrer noopener'><img src="/brandsImages/ie_music.png" alt="ie music"/></a>
+                    <a href="https://iemusic.co.uk/" target="_blank" rel='noreferrer noopener'><img src="https://res.cloudinary.com/dc5skapdx/image/upload/v1617624822/ie_music_sog0jm.png" alt="ie music"/></a>
 
-                    <a href="https://www.crashrecords.co.uk/" target="_blank" rel='noreferrer noopener'><img src="/brandsImages/crash records.png" alt="crach records"/></a>
+                    <a href="https://www.crashrecords.co.uk/" target="_blank" rel='noreferrer noopener'><img src="https://res.cloudinary.com/dc5skapdx/image/upload/v1617624822/crash_records_ghohd1.png" alt="crach records"/></a>
 
-                    <a href="https://www.guitarcenter.com/" target="_blank" rel='noreferrer noopener'><img src="/brandsImages/guitar center.png" alt="guitar center"/></a>
+                    <a href="https://www.guitarcenter.com/" target="_blank" rel='noreferrer noopener'><img src="https://res.cloudinary.com/dc5skapdx/image/upload/v1617624821/guitar_center_wwoqov.png" alt="guitar center"/></a>
 
-                    <a style={{marginLeft:"0"}} href="https://www.kissyourears.com/" target="_blank" rel='noreferrer noopener'><img src="/brandsImages/kiss your ears.png" alt="kiss your ears"/></a>
+                    <a style={{marginLeft:"0"}} href="https://www.kissyourears.com/" target="_blank" rel='noreferrer noopener'><img src="https://res.cloudinary.com/dc5skapdx/image/upload/v1617624822/kiss_your_ears_klw4ay.png" alt="kiss your ears"/></a>
 
-                    <a href="https://www.azzurrigroup.co.uk/" target="_blank" rel='noreferrer noopener'><img src="/brandsImages/Azzurri Group.png" alt="azzuri group"/></a>
+                    <a href="https://www.azzurrigroup.co.uk/" target="_blank" rel='noreferrer noopener'><img src="https://res.cloudinary.com/dc5skapdx/image/upload/v1617624821/Azzurri_Group_lpbpr3.png" alt="azzuri group"/></a>
 
-                    <a href="https://salamisocialclub.de/" target="_blank" rel='noreferrer noopener'><img src="/brandsImages/Salami Social Club.png" alt="salami social club"/></a>
+                    <a href="https://salamisocialclub.de/" target="_blank" rel='noreferrer noopener'><img src="https://res.cloudinary.com/dc5skapdx/image/upload/v1617624821/Salami_Social_Club_rs6igg.png" alt="salami social club"/></a>
                 </div>
 
                 <p className="copyright">© Pete Armitage 2021</p>
